@@ -1,0 +1,58 @@
+.info-heading{
+    margin-top: 40px;
+    font-size: 36px;
+}
+.country, .state{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    margin-left: 680px;
+    gap: 24px;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.places{
+    margin-top: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    margin-left: 680px;
+    font-size: 20px;
+    gap: 14px;
+}
+.places ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style: none;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #E44D26;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #BA3625;
+  }
+
+.error{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #FF0000;
+}
+
+.loading{
+    margin-top: 78px;
+}

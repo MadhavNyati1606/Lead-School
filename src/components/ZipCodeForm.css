@@ -1,0 +1,42 @@
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .enter p {
+    font-size: 18px;
+    margin-right: 12px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: #5E9ED6;
+  }
+  
+  .submit {
+    margin-top: 20px;
+  }
+  
+  .submit button {
+    padding: 12px 26px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #5E9ED6;
+    color: #000;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit button:hover {
+    background-color: #4078A9;
+  }
+  
