@@ -3,6 +3,7 @@ import axios from 'axios';
 import './ZipCodeForm.css'
 const ZipCodeForm = ({ onZipCodeSubmit, setLoading }) => {
     const [zipCode, setZipCode] = useState('');
+    
 
     const handleSubmit = async(e) =>{
         e.preventDefault();
